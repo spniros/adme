@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~video.js/dist/video-js.css";
+@import "assets/css/main.css";
+@import "~bootstrap/scss/bootstrap";
+
+a{
+    text-decoration: none;
+
+}
+
+.videoplayer-content{
+    margin: auto;
+    width: 800px !important;
+    height: 500px !important;
+    overflow: hidden;
+}
+.mm-active-highlight{
+    background-color: rgb(74, 218, 243);
+    // color:white;
+
+}
